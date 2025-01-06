@@ -17,7 +17,8 @@ function App() {
     <>
 
       <div className="dark:bg-slate-900 dark:text-white">
-      <Routes>
+        <Home></Home>
+      {/* <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/Essentials" element={<Essentials/>}/>
         <Route path="/Tools" element={<ToolKit/>}/>
@@ -27,7 +28,7 @@ function App() {
         <Route path="/mores" element={<Mores/>} />
         <Route path="/SupportUs" element={<SupportUs />} />
         <Route path="/JoinUs" element={<JoinUs />} />
-      </Routes>
+      </Routes> */}
       </div>
       
       

@@ -12,16 +12,19 @@
 
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App.jsx";
 import "./index.css";
+import { router } from "./utils/routes";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <BrowserRouter>
-    <div >
-    <App />
-    </div>
-  </BrowserRouter>
+  // <BrowserRouter>
+  //   <div >
+  //   <App />
+  //   </div>
+  // </BrowserRouter>
+
+  <RouterProvider router={router} />
 );
 
 //className="dark:bg-slate-900 dark:text-white"
